@@ -1,0 +1,24 @@
+:root {
+    --primary-color: #333;
+    --secondary-color: #FFC600;
+    --background-color: #f8f8f8;
+    --text-color: #333;
+    --text-light: #555;
+    --white: #ffffff;
+    --shadow: rgba(0, 0, 0, 0.1);
+    --paddings: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
